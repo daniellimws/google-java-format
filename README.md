@@ -1,5 +1,10 @@
 I wanted to use this tool, but also had to comply with [this coding style guide](https://se-education.org/guides/), which demands that `case` statements should not be indented, so I made a small patch for this tool to not add any indentation before `case` statements. I prefer it being like this anyways so I'm happy with this.
 
+Run `mvn install` to build, and the following to reformat any java source files
+
+```
+java -cp <path to google-java-format>/core/target/google-java-format-1.9-SNAPSHOT:../<path to google-java-format>/core/target/google-java-format-1.9-SNAPSHOT-all-deps.jar com.google.googlejavaformat.java.Main -a --replace src/main/java/*
+```
 
 # google-java-format
 
