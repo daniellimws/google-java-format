@@ -1823,7 +1823,7 @@ public class JavaInputAstVisitor extends TreePathScanner<Void, Void> {
     builder.space();
     tokenBreakTrailingComment("{", plusTwo);
     builder.blankLineWanted(BlankLineWanted.NO);
-    builder.open(plusTwo);
+    builder.open(ZERO);
     boolean first = true;
     for (CaseTree caseTree : cases) {
       if (!first) {

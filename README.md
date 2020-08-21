@@ -1,3 +1,6 @@
+I wanted to use this tool, but also had to comply with [this coding style guide](https://se-education.org/guides/), which demands that `case` statements should not be indented, so I made a small patch for this tool to not add any indentation before `case` statements. I prefer it being like this anyways so I'm happy with this.
+
+
 # google-java-format
 
 `google-java-format` is a program that reformats Java source code to comply with
